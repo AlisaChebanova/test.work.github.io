@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+b {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+
+
+section {
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+header {
+    position: relative; 
+    width: 100%; 
+    height: 500px; 
+    background: #ddd url(../images/4.jpg) no-repeat center; 
+    background-size: cover; 
+    /*background-attachment: fixed;*/
+    margin: 0;
+}
+header h1 {
+    position: absolute; 
+    display: block; 
+    width: 400px; 
+    height: 27px; 
+    font-size: 32px; 
+    text-align: center; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    padding: 10px 0 15px;
+    background: rgba(255,255,255,0.5);
+    border-left: 5px solid #182452;
+    border-right: 5px solid #182452;
+    color: #182452; 
+}
+
+menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #182452;
+    margin-bottom: 50px;
+}
+
+menu ul {
+   overflow: hidden; 
+   width: 690px;
+   margin: 0 auto;
+}
+
+menu ul li { 
+    float: left;
+}
+
+menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 20px 30px 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+center {
+    width: 100%; 
+    background: #fff; 
+    margin-bottom: 50px;
+} 
+
+page {
+    display: block; 
+    width: calc(100% - 60px); 
+    text-align: left; 
+    padding: 0 30px; 
+    margin-bottom: 50px;
+}
+
+page h2 {
+    font-size: 28px;
+    margin-bottom: 20px; 
+    color: #182452;
+}
+page p {
+    color: #555; 
+    font-size: 18px;
+} 
+page q {
+    display: block;
+    color: #999;
+    margin-top: 10px;
+    text-align: right;
+} 
+page p span {
+    font-size: 28px; 
+    color: #f00;
+}
+
+news {
+    position: relative; 
+    display: block; 
+    overflow: hidden; 
+    width: 100%;
+    color: #555;
+}
+news div {
+    position: relative; 
+    width: calc(33.33% - 42px); 
+    text-align: left; 
+    margin: 20px; 
+    height: 400px; 
+    border: 1px solid #ddd; 
+    float: left;
+} 
+news div foto {
+    display: block; 
+    width: 100%; 
+    height: 200px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+} 
+news div h3 {
+    margin: 10px; 
+    font-size: 22px; 
+    font-weight: bold;
+    color: #182452;
+}  
+news div p {
+    margin: 10px;
+}  
+news div a {
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px; 
+    display: block; 
+    width: 95px; 
+    text-align: center; 
+    padding: 10px; 
+    background: #f00; 
+    color: #fff;
+} 
+
+footer {
+    display: block; 
+    overflow: hidden;
+    height: 300px; 
+    background: #182452 url(../images/5.jpg) no-repeat center; 
+    background-size: cover; 
+    color: #fff;
+    padding: 40px;
+}
+
+footer div {
+    position: relative;
+    display: block;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+footer div h6 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+footer div ul {
+    padding: 20px;
+}
+
+footer div ul li {
+     margin-bottom: 10px;
+     
+}
+
+footer div ul li a {
+    color: #fff;
+   
+  
+}
+
+footer div form {
+    display: block;
+    width: 100%;
+}
+
+footer div form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+
+footer div form input textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+
+footer div form input.send {
+    width: 120px;
+}
+
